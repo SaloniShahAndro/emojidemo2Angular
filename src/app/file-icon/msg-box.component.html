@@ -1,0 +1,14 @@
+<ng-container *ngIf='msg.type; else simpleMessage'>
+    <ng-container *ngIf='checkIfImage(msg); else otherFile'>
+        <img [src]='msg.file_detail.path+"thumb/"+msg.file_detail.filename' />
+    </ng-container>
+    <ng-template #otherFile>
+        <a [href]='msg.file_detail.path+msg.file_detail.filename' target="_self" download>
+            <i [ngClass]='["fa" ,getClass(msg.file_detail.extension)]'></i>
+            {{ msg.message }}
+        </a>
+    </ng-template>
+</ng-container>
+<ng-template #simpleMessage>
+    {{ msg.message }}
+</ng-template>

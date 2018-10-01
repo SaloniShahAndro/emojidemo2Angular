@@ -23,7 +23,10 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/@ctrl/ngx-emoji-mart/picker.css",
+              "./node_modules/font-awesome/css/font-awesome.css",
+              "./node_modules/ng2-emoji/css/ng2-emoji.css"
             ],
             "scripts": []
           },

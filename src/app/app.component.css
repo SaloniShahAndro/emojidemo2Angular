@@ -1,0 +1,39 @@
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+  }
+
+  .right-inner-addon {
+    position: relative;
+  }
+  
+  .right-inner-addon input {
+    padding-right: 30px;
+  }
+
+
+.search { position: relative; }
+.search input { text-indent: 30px;}
+.search .fa-search { 
+  position: absolute;
+  top: 24px;
+  left: 7px;
+  font-size: 15px;
+}
+
+.emoji{
+  display:inline-block;
+}
+
+/* .card-outline-primary{
+  border: 5cm;
+  border-color: brown
+} */
+
+.comp {
+  border: 5px solid #8a96ee;
+  border-radius: 10px;
+  background-color: #8a96ee;
+}

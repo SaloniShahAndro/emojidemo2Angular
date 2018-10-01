@@ -1,0 +1,14 @@
+<div *ngIf = "filedata.extension == 'image/jpeg' ; else elseBlock">
+<img src="http://localhost:4555/uploads/profilepicture-1517813819979greece-beach-resorts-wallpaper-3.jpg">
+</div>
+
+<ng-template #elseBlock>
+  <div *ngIf = "filedata.extension == 'application/json; charset=utf-8'">
+  
+  
+  </div>
+    <fa name="file" size="2x"></fa>
+  <span>PDF</span>
+</ng-template>
+
+
